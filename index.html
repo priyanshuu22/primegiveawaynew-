@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join Now Fast</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f8;
+      text-align: center;
+      color: #000;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-top: 20px;
+      letter-spacing: 2px;
+    }
+
+    .sub {
+      font-size: 18px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .profile {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 20px auto;
+    }
+
+    .btn {
+      display: block;
+      width: 90%;
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 18px;
+      background: #ffe600;
+      color: #000;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .timer {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 20px 0;
+      font-size: 18px;
+      color: red;
+      font-weight: bold;
+    }
+
+    .timer div {
+      text-align: center;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 20px;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 🔴 CHANGE YOUR BRAND / CHANNEL NAME HERE -->
+  <h1>JOIN NOW FAST</h1>
+  <div class="sub">BEST GIVEAWAY CHANNEL</div>
+
+  <!-- 🔴 CHANGE IMAGE URL HERE -->
+  <img 
+    src="c:\Users\piyus\Downloads\Gemini_Generated_Image_kect9okect9okect.png" 
+    class="profile"
+    alt="Profile Image"
+  >
+
+  <!-- 🔴 CHANGE TELEGRAM LINK HERE -->
+  <a href="https://t.me/giveawayxdiuwin" class="btn">
+    GET FREE DEPOSIT- ₹100-500 <br> CLICK HERE TO JOIN..
+  </a>
+
+  <!-- COUNTDOWN TIMER -->
+  <div class="timer">
+    <div><span id="days">00</span><br>DAYS</div>
+    <div><span id="hours">00</span><br>HOURS</div>
+    <div><span id="minutes">00</span><br>MINUTES</div>
+    <div><span id="seconds">00</span><br>SECONDS</div>
+  </div>
+
+  <!-- 🔴 SAME TELEGRAM LINK -->
+  <a href="https://t.me/giveawayxdiuwin" class="btn">
+    GET ASSURED RS100-500 DEPOSIT <br> CLICK HERE TO JOIN..
+  </a>
+
+  <div class="note">
+    Limited time offer • Join now
+  </div>
+
+  <!-- COUNTDOWN SCRIPT -->
+  <script>
+    // 🔴 CHANGE TIME IF YOU WANT (currently 24 hours)
+    const endTime = new Date().getTime() + (1 * 60 * 60 * 1000);
+
+    setInterval(() => {
+      const now = new Date().getTime();
+      const diff = endTime - now;
+
+      if (diff < 0) return;
+
+      document.getElementById("days").innerText =
+        Math.floor(diff / (1000 * 60 * 60 * 24));
+      document.getElementById("hours").innerText =
+        Math.floor((diff / (1000 * 60 * 60)) % 24);
+      document.getElementById("minutes").innerText =
+        Math.floor((diff / (1000 * 60)) % 60);
+      document.getElementById("seconds").innerText =
+        Math.floor((diff / 1000) % 60);
+    }, 1000);
+  </script>
+    <!-- YAHAN IMAGE CHANGE KARNI HAI --> -->
+  <!-- <!-- <!-- <a  target="_blank"> -->
+    <img src="c:\Users\piyus\Downloads\proof image.jpeg" alt="Winning Proof" class="proof-img">
+
+  </a> -->
+
+</body>
+</html>
