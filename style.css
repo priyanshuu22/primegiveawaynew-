@@ -3,7 +3,7 @@
   text-align: center;   /* CENTER ALIGN */
 }
 
-.proof-section a{
+.profile-section a{
   display: block;       /* 🔥 YE MAIN FIX HAI */
   text-align: center;
 }
@@ -16,3 +16,4 @@
   border-radius: 14px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.25);
 }
+
